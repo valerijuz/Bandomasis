@@ -16,7 +16,7 @@
 #include "STM32L1xx.h"
 #include "LED.h"
 
-const unsigned long led_mask[] = {1UL << 6, 1UL << 7};
+const unsigned long led_mask[] = {1UL << 6, 1UL << 7}; // Komentaras reikalingas Gitui
 
 /*----------------------------------------------------------------------------
   initialize LED Pins
