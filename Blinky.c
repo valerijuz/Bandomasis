@@ -24,7 +24,7 @@ volatile uint32_t msTicks;                      /* counts 1ms timeTicks       */
   SysTick_Handler
  *----------------------------------------------------------------------------*/
 void SysTick_Handler(void) {
-  msTicks++;
+  msTicks++;    // laikmatis 
 }
 
 /*----------------------------------------------------------------------------
