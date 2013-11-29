@@ -89,7 +89,7 @@ void SystemCoreClockSetHSI(void) {
 /*----------------------------------------------------------------------------
   MAIN function
  *----------------------------------------------------------------------------*/
-int main (void) {
+int main (void) { //  main funkcija
   int32_t num = -1; 
   int32_t dir =  1;
  uint32_t btns = 0;
