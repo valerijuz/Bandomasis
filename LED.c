@@ -21,7 +21,7 @@ const unsigned long led_mask[] = {1UL << 6, 1UL << 7}; // Komentaras reikalingas
 /*----------------------------------------------------------------------------
   initialize LED Pins
  *----------------------------------------------------------------------------*/
-void LED_Init (void) {
+void LED_Init (void) { //sdsdfsdf
 
   RCC->AHBENR |=  (1UL <<  1);                  /* Enable GPIOB clock         */
 
@@ -39,7 +39,7 @@ void LED_Init (void) {
 void LED_On (unsigned int num) {
 
   if (num < LED_NUM) {
-    GPIOB->BSRRL = led_mask[num];
+    GPIOB->BSRRL = led_mask[num]; //sdfcsdfs
   }
 }
 
